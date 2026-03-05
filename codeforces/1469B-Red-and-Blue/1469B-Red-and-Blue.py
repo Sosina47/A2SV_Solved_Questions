@@ -10,4 +10,4 @@ for _ in range(int(input())):
     max_blue = max(blue)
     max_red = max(red)
     
-    print(max([0, max_blue, max_red, max_blue + max_red]))
+    print(max(0, max_blue, max_red, max_blue + max_red))
